@@ -1,0 +1,32 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+benchmark_fib.exe is a Catch v2.13.7 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Benchmark fibonacci
+-------------------------------------------------------------------------------
+C:/Users/arunm/desktop/IB9JHO/lab3/tests/benchmark_fib.cpp(8)
+...............................................................................
+
+benchmark name                       samples       iterations    estimated
+                                     mean          low mean      high mean
+                                     std dev       low std dev   high std dev
+-------------------------------------------------------------------------------
+Fibonacci with loop                            100          5631     1.6893 ms 
+                                        5.26088 ns    3.80004 ns    9.55994 ns 
+                                        11.4249 ns    3.37048 ns     24.217 ns 
+                                                                               
+Fibonacci with recursion                       100             1    183.142 ms 
+                                        1.76783 ms    1.75031 ms    1.78779 ms 
+                                        95.0489 us    85.2319 us    106.647 us 
+                                                                               
+Fibonacci with tail recursion                  100          5556     1.6668 ms 
+                                        3.23758 ns    3.20986 ns    3.27556 ns 
+                                       0.163102 ns    0.11819 ns   0.274923 ns 
+                                                                               
+
+===============================================================================
+test cases: 1 | 1 passed
+assertions: - none -
+

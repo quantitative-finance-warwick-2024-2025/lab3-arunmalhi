@@ -1,0 +1,3 @@
+Observations: 
+The slowest function is Fibonacci with recursion.
+The debug tests run siginifcantl slower than the release builds.
